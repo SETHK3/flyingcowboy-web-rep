@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(33, 46, 72);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+}
+
+.fc-navbar {
+  background-color: rgba(33, 46, 72, 0.6);
+  width: 100%;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hero-container {
+  background: url("../images/flying\ cowboy\ hero\ pic.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40rem;
+}
+
+.logo-foreground {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-container {
+  background: url("../images/fc\ mission\ pic.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40rem;
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 30px 10px 10px 10px;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-size: 64px;
+}
